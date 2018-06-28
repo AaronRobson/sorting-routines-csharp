@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\sorting-routines-csharp\SortingRoutines.Library\SortingRoutines.Library.csproj" />
+    <ProjectReference Include="..\SortingRoutines.Library\SortingRoutines.Library.csproj" />
   </ItemGroup>
 
 </Project>
