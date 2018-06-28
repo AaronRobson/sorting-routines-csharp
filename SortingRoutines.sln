@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortingRoutines", "..\SortingRoutines\SortingRoutines.csproj", "{AD834C49-1EF8-402A-8A4F-1B5276DD7B5C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortingRoutines", "SortingRoutines\SortingRoutines.csproj", "{AD834C49-1EF8-402A-8A4F-1B5276DD7B5C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortingRoutines.Tests", "SortingRoutines.Tests\SortingRoutines.Tests.csproj", "{13928926-1AD0-4EBC-93C1-8D34F1A0EFBF}"
 EndProject
