@@ -1,8 +1,5 @@
 language: csharp
-solution: SortingRoutines.sln
-install:
-  - nuget restore SortingRoutines.sln
-  - nuget install NUnit.Runners -Version 3.8.0 -OutputDirectory testrunner
+mono: none
+dotnet: 1.1.5
 script:
-  - msbuild /p:Configuration=Release SortingRoutines.sln
-  - mono ./testrunner/NUnit.ConsoleRunner.3.8.0/tools/nunit3-console.exe ./SortingRoutines.Tests/bin/Release/SortingRoutines.Tests.dll
+ - dotnet restore
