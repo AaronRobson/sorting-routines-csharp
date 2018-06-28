@@ -15,10 +15,20 @@
 
             for (j = N - 1; j > 0; j--)
             {
+                bool swapsInThisIteration = false;
+
                 for (i = 0; i < j; i++)
                 {
                     if (data[i] > data[i + 1])
+                    {
+                        swapsInThisIteration = true;
                         Swap(ref data, i, i + 1);
+                    }
+                }
+
+                if (!swapsInThisIteration)
+                {
+                    break;
                 }
             }
 

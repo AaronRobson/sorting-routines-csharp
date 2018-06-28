@@ -14,6 +14,7 @@ namespace SortingRoutines.Tests
         public void BubbleSortCorrectlySorts()
         {
             var sorter = new BubbleSort();
+            Assert.That(sorter.Sort(Expected), Is.EquivalentTo(Expected));
             Assert.That(sorter.Sort(Given), Is.EquivalentTo(Expected));
         }
     }
